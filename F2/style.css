@@ -1,0 +1,19 @@
+input{
+    width: 200px;
+    
+}
+label{
+    color: red;
+    font-size: 25px;
+}
+button{
+    width: 100px;
+    color: white;
+    padding: 13px 27px;
+    background-color: navy;
+    font-size: 15px;
+    
+}
+legend{
+    
+}
