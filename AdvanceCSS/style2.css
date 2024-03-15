@@ -1,30 +1,44 @@
-.bigbox{
+.mainbox{
     height: 300px;
     width: 300px;
     background: gainsboro;
+    position: sticky;
+    top: 100px;
+    display: flex;
+
 }
-.boxred{
+.red{
     background-color: red;
     height: 100px;
     width: 100px;
     z-index: 1;
+    position: relative;
 }
-.boxyellow{
+.yellow{
     background-color: yellow;
     height: 100px;
     width: 100px;
 }
-.boxgreen{
+.green{
     background-color: green;
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: fixed;
     top: 0;
+    left: 0; 
 
 }
 body{
-    height: 100vh;
+    height: 500vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;      /*for making content in center in y axis */
+    justify-content: center;   /*for making content in center in x axis */
 }
+.bigbox{
+    display: flex;
+    position: absolute;
+    border: black 1px solid;
+}
+
+
+    
