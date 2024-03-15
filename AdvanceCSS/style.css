@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+}
+.background{
+    height: 100vh;
+    background:url(./img.jpg);
+    background-size: cover;
+}
