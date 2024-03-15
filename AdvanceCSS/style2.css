@@ -1,0 +1,30 @@
+.bigbox{
+    height: 300px;
+    width: 300px;
+    background: gainsboro;
+}
+.boxred{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+}
+.boxyellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.boxgreen{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
