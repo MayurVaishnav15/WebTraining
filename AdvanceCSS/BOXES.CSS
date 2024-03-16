@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+body{
+
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background: gray;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    overflow: hidden;
+    
+   
+}
+.container:hover .sub-box{
+    top: 00px;
+    transition: 1s ease;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.green{
+    background: green;
+
+}
+.yellow{
+    background: yellow;
+
+}
+.red{
+    background: red;
+
+}
+.sub-box{
+    position: absolute;
+    left: 0;
+    display:flex;
+    top: 300px;
+
+}
