@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+body{
+
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #28282b;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background: gray;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    
+   
+}
+.spinner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 500px;
+    width: 500px;
+    background: black;
+    border: 20px solid magenta;
+    /* animation: spin 1s linear infinite; */
+    border-radius: 50%;
+    border-left: 20px red dotted;
+    border-right: 20px dotted blue;
+    border-top: 20px dashed peru;
+    border-bottom: 20px purple double ;
+    font-size: 20px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+/* .spinner:hover{
+    transform: scale(3);
+} */
+.spinner:hover h1{
+    /* transform: translateY(-50px); */
+    transform: translateX(-50px);
+    cursor: pointer; /*so we can't select the text*/
+    user-select: none;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container:hover .sub-box{
+    transition: 1s ease;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.green{
+    background: green;
+
+}
+.yellow{
+    background: yellow;
+
+}
+.red{
+    background: red;
+
+}
+.sub-box{
+    position: absolute;
+    left: 0;
+    display:flex;
+    top: 300px;
+
+}
+h1{
+    background-color: red;
+   padding: 40px;
+   border-radius: 10px;
+   color: yellow;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
