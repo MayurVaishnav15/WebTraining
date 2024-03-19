@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}  
+
+.maindiv{
+    background: pink;
+    height: 98vh;
+    width: 150vh;
+.header{
+  background: rgb(102, 197, 238);
+  height: 70px;
+  margin: 10px;
+  
+}
+.body{
+    height: 35cap;
+   width: 25cap;
+   background:rgb(44, 169, 237);
+   margin: 10px;
+}
+.article {
+ background-color: black;
+ height: 100px;
+ width: 100vh;
+ margin: 10px;
+ position: absolute;
+
+}
+.box{
+    color: black;
+    height: 100px;
+    width: 100px;
+
+}
+.footer{
+
+}
+h3{
+    color: white;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
