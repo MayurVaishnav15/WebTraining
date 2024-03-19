@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.808);
+     position: absolute;
+     top: 250px;
+     transition: 1s ;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+}
+
+.task{
+    height: 250px;
+    width: 200px;
+    background: red;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.task:hover{
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.task:hover .bg{
+    top: 150px;
+}
+img{
+
+    height: 100%;
+    width: 100%;
+   
+    
+    
+}
